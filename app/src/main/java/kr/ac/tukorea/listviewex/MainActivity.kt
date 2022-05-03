@@ -1,11 +1,8 @@
 package kr.ac.tukorea.listviewex
 
-import android.graphics.Point
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.TypedValue
-import android.widget.LinearLayout
 import android.widget.ListView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         PlaceList("그린웨이", "23.7km", "oido"),
         PlaceList("호조벌", "23.7km", "dream"),
         PlaceList("연꽃테마파크", "23.7km", "lotus"),
-        PlaceList("물왕저수지", "23.7km", "oido"),
+        PlaceList("물왕저수지", "23.7km", "mulwang"),
         PlaceList("보통천 자전거길", "23.7km", "botong"),
         PlaceList("시화방조제", "23.7km", "sihwa")
     )
