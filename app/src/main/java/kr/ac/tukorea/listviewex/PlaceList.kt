@@ -1,5 +1,13 @@
 package kr.ac.tukorea.listviewex
 
-class PlaceList (val placeTxt : String, val placeDistance : String, val photo : String) {
-    var placeList = arrayListOf<PlaceList>()
+import java.io.Serializable
+
+class PlaceList(
+    val placeTxt: String,
+    val placeDistance: String,
+    val photo: String,
+    val latitude: String,
+    val longitude: String
+) :
+    Serializable {
 }

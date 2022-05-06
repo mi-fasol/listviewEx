@@ -29,7 +29,7 @@ class MainListAdapter(val context: Context, val placeList : ArrayList<PlaceList>
     }
 
     override fun getItemId(position: Int): Long {
-        return 0
+        return position.toLong()
     }
 
     override fun getItem(position : Int): Any {
